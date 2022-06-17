@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+sans|Source+Code+Pro');
+
+:root {
+    --fsphp: #1F2026;
+    --fsline: #475163;
+    --green: #35ba9b;
+    --blue: #3aadd9;
+    --yellow: #f5b945;
+    --red: #d94452;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 3%;
+    font-family: "Source Code Pro", serif;
+    padding: 20px 20px 50px 20px;
+    overflow-x: hidden;
+    color: #333333;
+}
+
+a {
+    color: var(--blue);
+}
+
+h1, h2, h3, h4, h5, h6, p, article, pre {
+    margin: 20px 0;
+    padding-left: 10px;
+    border-left: 5px solid var(--fsline);
+}
+
+p {
+    font-size: 0.875em;
+    margin: 10px 0;
+}
+
+.tag {
+    font-family: "Source Code Pro", serif;
+    font-size: 0.75rem;
+    color: #FFFFFF;
+    display: inline-block;
+    background: var(--fsline);
+    padding: 3px 10px 4px 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.message {
+    font-size: 0.9em;
+    padding: 15px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 20px 0;
+    font-weight: bold;
+    border: 1px solid #cccccc;
+}
+
+.message small {
+    display: block;
+    margin-top: 7px;
+    font-family: "Source Code Pro", serif;
+    font-size: 0.75em;
+}
+
+.message.accept {
+    color: var(--green);
+    border-color: var(--green);
+}
+
+.message.warning {
+    color: var(--yellow);
+    border-color: var(--yellow);
+}
+
+.message.error {
+    color: var(--red);
+    border-color: var(--red);
+}
