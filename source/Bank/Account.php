@@ -29,7 +29,7 @@ abstract class Account
     public function extract()
     {
         $extract = ($this->balance >= 1 ? Message::ACCEPT : Message::ERROR);
-        Message::show("Extrato - Saldo Atual: {$this->toBrl($this->balance)}", $extract);
+        Message::show("Extrato - Saldo Atual: <strong>{$this->toBrl($this->balance)}</strong>", $extract);
     }
 
     protected function toBrl($value)
