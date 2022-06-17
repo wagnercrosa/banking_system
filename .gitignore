@@ -13,6 +13,7 @@
 !/tmp/sessions/empty
 /tmp/tests/*
 !/tmp/tests/empty
+.idea
 
 /logs/*
 !/logs/empty
