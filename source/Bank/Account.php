@@ -7,10 +7,10 @@ use Source\App\Message;
 
 abstract class Account
 {
-    private $branch;
-    private $account;
-    private $client;
-    private $balance;
+    protected $branch;
+    protected $account;
+    protected $client;
+    protected $balance;
 
     /**
      * @param $branch
@@ -26,13 +26,13 @@ abstract class Account
         $this->balance = $balance;
     }
 
-    protected function extract()
+    public function extract()
     {
         $extract = ($this->balance >= 1 ? Message::ACCEPT : Message::ERROR);
         Message::show("Extrato - Saldo Atual: {$this->toBrl($this->balance)}", $extract);
     }
 
-    private function toBrl($value)
+    protected function toBrl($value)
     {
         return "R$ ". number_format($value, "2",",",".");
     }
