@@ -1,6 +1,6 @@
 # Banking System
 
-Esse projeto é completamente para fins de estudos, não possui boas praticas de programação, mas ele chegara lá
+Esse projeto é completamente para fins de estudos, e não possui boas praticas de programação.
 
 ## Features
 
@@ -9,7 +9,7 @@ Esse projeto é completamente para fins de estudos, não possui boas praticas de
     - Conta Poupança
     - Conta Corrente
 
-Como o objetivo é aprender, o projeto está longe de estar no pradrão usável, mas atualizarei conforme vou evoluindo.
+Como o objetivo é aprender sobre a estrutura bancária, o projeto está longe de estar no padrão usável, mas atualizarei conforme for evoluindo nos estudos.
 
 
 ## Tech
