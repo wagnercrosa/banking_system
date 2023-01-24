@@ -42,7 +42,7 @@ p {
     color: #FFFFFF;
     display: inline-block;
     background: var(--fsline);
-    padding: 3px 10px 4px 10px;
+    padding: 3px 10px 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
